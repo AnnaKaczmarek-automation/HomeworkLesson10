@@ -1,0 +1,20 @@
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome=99 in cache (valid until 10:14:04 31/03/2022 CEST)
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome99=99.0.4844.51 in cache (valid until 13:40:41 31/03/2022 CEST)
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[main] D i.g.bonigarcia.wdm.WebDriverManager - ( Driver chromedriver 99.0.4844.51 found in cache
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Exporting webdriver.chrome.driver as C:\Users\kaczmaa5\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[main] I BaseData.BaseTest.class - ( ***** Driver is initiated properly *****
+[main] I BaseData.BaseTest.class - ( ***** Still before test *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I IframeTest.class - ( <<<<Webside is opened>>>>
+[main] I IframeTest.class - ( iframe1 is selected
+[main] I IframeSteps.class - ( first name is typed in
+[main] I IframeSteps.class - ( surname is typed in
+[main] I IframeTest.class - ( All form fields are filled with values
+[main] I IframeTest.class - ( iframe2 is selected
+[main] I IframeSteps.class - ( login is typed in
+[main] I IframeSteps.class - ( password is typed in
+[main] I IframeSteps.class - ( list of elements is not empty
+[main] I IframeSteps.class - ( value for year of experience is chosen
+[main] I IframeTest.class - ( iframe is switched to default
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****
