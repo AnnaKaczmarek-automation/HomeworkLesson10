@@ -1,0 +1,15 @@
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome=99 in cache (valid until 17:35:20 01/04/2022 CEST)
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome99=99.0.4844.51 in cache (valid until 13:53:26 02/04/2022 CEST)
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[main] D i.g.bonigarcia.wdm.WebDriverManager - ( Driver chromedriver 99.0.4844.51 found in cache
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Exporting webdriver.chrome.driver as C:\Users\kaczmaa5\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[main] I BaseData.BaseTest.class - ( ***** Driver is initiated properly *****
+[main] I BaseData.BaseTest.class - ( ***** Still before test *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I AccordionTabTest.class - ( ***** Tab 'Widgets' is opened *****
+[main] I AccordionTabTest.class - ( ***** Tab 'Accordion' is opened *****
+[main] I AccordionTabTest.class - ( Text displayed in section 1: Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+[main] I AccordionTabTest.class - ( Text displayed in section 2: Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna.
+[main] I AccordionTabTest.class - ( Text displayed in section 3: [[ChromeDriver: chrome on WINDOWS (c732640273ef6c7f0fae5191f3c48838)] -> id: ui-id-6]
+[main] I AccordionTabTest.class - ( Text displayed in section 4: Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est.
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

@@ -12,16 +12,15 @@ public class AccordionTabTest extends BaseTest {
     AccordionTabSteps accordionTabSteps = new AccordionTabSteps();
 
     @Test
-    void handleAccordionTabOperations() {
+    void handleAccordionTabOperations() throws InterruptedException {
         driver.get("https://seleniumui.moderntester.pl/");
         basicOperations.clickOnWidgetsTab();
         log.info("***** Tab 'Widgets' is opened *****");
         basicOperations.clickOnAccordionTab();
         log.info("***** Tab 'Accordion' is opened *****");
         accordionTabSteps.getTextFromSection1();
-
-
-
-
+        accordionTabSteps.getTextFromSection2();
+        accordionTabSteps.getTextFromSection3();
+        accordionTabSteps.getTextFromSection4();
     }
 }

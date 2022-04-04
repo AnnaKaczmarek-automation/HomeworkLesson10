@@ -1,5 +1,4 @@
 package Interactions;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -14,7 +13,7 @@ public class SelectableTabTest extends BaseTest {
 
 
     @Test
-    void handleSelectableTabOptions() {
+    void handleSelectableTabOperations() {
 
         driver.get("https://seleniumui.moderntester.pl/");
         basicOperations.clickOnInteractionsTab();
@@ -30,3 +29,5 @@ public class SelectableTabTest extends BaseTest {
     }
 
 }
+
+

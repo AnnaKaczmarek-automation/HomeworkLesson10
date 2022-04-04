@@ -27,6 +27,8 @@ public class DelayedAlertTest extends BaseTest {
         log.info("Page waited for alert");
         basicOperations.clickOkButton();
         log.info("OK button was chosen");
+        delayedAlertSteps.varifyIfCorrectTextIsDisplayed();
+        log.info("Correct text is displayed");
     }
 
 }

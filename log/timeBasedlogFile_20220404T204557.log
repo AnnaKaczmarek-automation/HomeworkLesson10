@@ -1,0 +1,6 @@
+[main] I SelectMenuTabTest.class - ( ***** Tab 'SelectMenu' is opened *****
+[main] I SelectMenuTabSteps.class - ( jquery
+[main] I SelectMenuTabSteps.class - ( jqueryui
+[main] I SelectMenuTabSteps.class - ( somefile
+[main] I SelectMenuTabSteps.class - ( someotherfile
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

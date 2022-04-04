@@ -18,8 +18,10 @@ public class DraggableTest extends BaseTest {
         log.info("***** Tab 'Interactions' is opened *****");
         basicOperations.clickOnDraggableTab();
         log.info("***** Tab 'Draggable' is opened *****");
-        draggableSteps.clickAndHoldElement();
+        draggableSteps.moveUpRight();
         log.info("***** Element is moved to upper right *****");
+        draggableSteps.moveBottomRight();
+        log.info("***** Element is moved to bottom right *****");
 
     }
 

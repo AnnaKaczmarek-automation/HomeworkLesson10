@@ -18,7 +18,15 @@ public class ResizableTabTest extends BaseTest {
         log.info("***** Tab 'Interactions' is opened *****");
         basicOperations.clickOnResizableTab();
         log.info("***** Tab 'Resizable' is opened *****");
-        resizableTabSteps.resizeWindowToTheRight(600,600);
+        resizableTabSteps.resizeWindowToTheRight(1286,696);
+        log.info("Window is resized to the right");
+        driver.manage().window().maximize();
+        resizableTabSteps.resizeWindowToTheBottom(1296, 686);
+        log.info("Window is resized to the bottom");
+        driver.manage().window().maximize();
+        resizableTabSteps.resizeWindowToTheRightAndBottom(1286,686 );
+        log.info("Window is resized to the right and to the bottom");
+        driver.manage().window().maximize();
 
     }
 }

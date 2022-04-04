@@ -74,7 +74,7 @@ public class BasicOperations extends BaseTest {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("droppable-item"))).click();
     }
     public void clickOnResizableTab(){
-        WebDriverWait wait = new WebDriverWait(driver,7);
+        WebDriverWait wait = new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("resizable-item"))).click();
     }
     public void clickOnSelectableTab(){
@@ -100,5 +100,32 @@ public class BasicOperations extends BaseTest {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("accordion-item"))).click();
     }
 
+    public void clickOnAutocompleteTab(){
+        WebDriverWait wait = new WebDriverWait(driver,8);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("autocomplete-item"))).click();
+    }
 
+    public void clickOnDatePickerTab(){
+        WebDriverWait wait = new WebDriverWait(driver,8);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("datepicker-item"))).click();
+    }
+
+    public void clickOnMenuTab(){
+        WebDriverWait wait = new WebDriverWait(driver,8);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("menu-item"))).click();
+    }
+
+    public void clickOnModalDialogTab(){
+        WebDriverWait wait = new WebDriverWait(driver,8);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("modal-dialog-item"))).click();
+    }
+
+    public void clickOnProgressbarTab(){
+        WebDriverWait wait = new WebDriverWait(driver,8);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("progressbar-item"))).click();
+    }
+    public void clickOnSelectMenuTab(){
+        WebDriverWait wait = new WebDriverWait(driver,8);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("selectmenu-item"))).click();
+    }
 }

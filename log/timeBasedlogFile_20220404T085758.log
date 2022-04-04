@@ -1,0 +1,9 @@
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I DelayedAlertTest.class - ( Webside is correctly opened
+[main] I DelayedAlertTest.class - ( Basic tab is opened
+[main] I DelayedAlertTest.class - ( Alert tab is opened
+[main] I DelayedAlertTest.class - ( Delayed Alert button was chosen
+[main] I DelayedAlertTest.class - ( Page waited for alert
+[main] I DelayedAlertTest.class - ( OK button was chosen
+[main] I DelayedAlertTest.class - ( Correct text is displayed
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

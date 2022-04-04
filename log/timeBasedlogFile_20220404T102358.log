@@ -1,0 +1,4 @@
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I DatePickerTabTest.class - ( ***** Tab 'Widgets' is opened *****
+[main] I DatePickerTabTest.class - ( ***** Tab 'DatePicker' is opened *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

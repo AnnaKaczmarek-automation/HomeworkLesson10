@@ -9,7 +9,7 @@ public class DroppableSteps extends BaseTest {
 
     public void dragAndDropElement(WebElement source, WebElement target) {
         Actions actions = new Actions(driver);
-        actions.dragAndDrop(source, target).perform();
+        actions.clickAndHold(source).moveToElement(target).release().perform();
         String expectedText = "Dropped!";
         String actualText = target.getText();
         Assert.assertEquals(expectedText, actualText);
