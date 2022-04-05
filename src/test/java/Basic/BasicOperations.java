@@ -29,8 +29,9 @@ public class BasicOperations extends BaseTest {
         driver.findElement(By.id("iframes-item")).click();
     }
     public void clickOnWindowsTabsTab(){
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("windows-tabs-item"))).click();
 
-        driver.findElement(By.id("windows-tabs-item")).click();
     }
 
     public void selectIframe1() {
@@ -125,7 +126,7 @@ public class BasicOperations extends BaseTest {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("progressbar-item"))).click();
     }
     public void clickOnSelectMenuTab(){
-        WebDriverWait wait = new WebDriverWait(driver,8);
+        WebDriverWait wait = new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("selectmenu-item"))).click();
     }
 }

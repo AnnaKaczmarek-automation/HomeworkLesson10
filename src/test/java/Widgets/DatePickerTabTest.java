@@ -13,7 +13,7 @@ public class DatePickerTabTest extends BaseTest {
 
 
     @Test
-    void handleDataPickerTabOptions() {
+    void handleDataPickerTabOptions() throws InterruptedException {
         driver.get("https://seleniumui.moderntester.pl/");
         basicOperations.clickOnWidgetsTab();
         log.info("***** Tab 'Widgets' is opened *****");

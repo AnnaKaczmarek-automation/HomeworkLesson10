@@ -1,0 +1,18 @@
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome=99 in cache (valid until 10:56:19 05/04/2022 CEST)
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome99=99.0.4844.51 in cache (valid until 08:48:15 06/04/2022 CEST)
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[main] D i.g.bonigarcia.wdm.WebDriverManager - ( Driver chromedriver 99.0.4844.51 found in cache
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Exporting webdriver.chrome.driver as C:\Users\kaczmaa5\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[main] I BaseData.BaseTest.class - ( ***** Driver is initiated properly *****
+[main] I BaseData.BaseTest.class - ( ***** Still before test *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I WindowsTabsTest.class - ( ***** Tab 'Basic' is opened *****
+[main] I WindowsTabsTest.class - ( ***** Tab 'Windows/Tabs' is opened *****
+[main] I WindowsTabsTest.class - ( ***** Button 'New Browser Window' is chosen *****
+[main] I WindowsTabsTest.class - ( ***** New browser window is open and closed*****
+[main] I WindowsTabsTest.class - ( *****  Button 'New Message Window' is chosen *****
+[main] I WindowsTabsSteps - ( Text of message is: Knowledge increases by sharing but not by saving. Please share this website with your friends and in your organization.
+[main] I WindowsTabsTest.class - ( *****  New message window is open, text is printed and window is and closed *****
+[main] I WindowsTabsTest.class - ( ***** Button 'New Browser Tab' is chosen *****
+[main] I WindowsTabsTest.class - ( *****  New window tab is open and closed *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****
