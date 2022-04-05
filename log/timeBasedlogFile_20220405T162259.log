@@ -1,0 +1,5 @@
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I FormTabTest.class - ( ***** Webside is opened *****
+[main] I FormTabTest.class - ( ***** Basic tab is opened *****
+[main] I FormTabTest.class - ( ***** Form tab is opened *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

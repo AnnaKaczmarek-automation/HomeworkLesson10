@@ -22,6 +22,10 @@ public class BasicOperations extends BaseTest {
     public void clickOnAlertsTab() {
         driver.findElement(By.id("alerts-item")).click();
     }
+    public void clickOnFormTab(){
+        driver.findElement(By.id("form-item")).click();
+    }
+
 
     public void clickOnIframeTab() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
