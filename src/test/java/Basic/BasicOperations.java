@@ -12,7 +12,6 @@ public class BasicOperations extends BaseTest {
     }
 
     public void clickOnCancelButton() {
-
         driver.switchTo().alert().dismiss();
     }
 
@@ -31,7 +30,6 @@ public class BasicOperations extends BaseTest {
     public void clickOnWindowsTabsTab(){
         WebDriverWait wait = new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("windows-tabs-item"))).click();
-
     }
 
     public void selectIframe1() {

@@ -1,12 +1,10 @@
 package Others;
-
 import BaseData.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 
 public class HighSiteTabSteps extends BaseTest {
 
@@ -27,5 +25,4 @@ public class HighSiteTabSteps extends BaseTest {
             return false;
         }
     }
-
 }

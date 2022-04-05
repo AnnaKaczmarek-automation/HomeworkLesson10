@@ -1,5 +1,4 @@
 package Basic;
-
 import BaseData.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,10 +9,8 @@ import org.slf4j.LoggerFactory;
 public class WindowsTabsSteps extends BaseTest {
     Logger log = LoggerFactory.getLogger("WindowsTabsSteps");
 
-
     public void clickOnNewBrowserWindowButton() {
         driver.findElement(By.id("newBrowserWindow")).click();
-
     }
 
     public void switchToNewWindowAndCloseIt() throws InterruptedException {
@@ -54,7 +51,6 @@ public class WindowsTabsSteps extends BaseTest {
         for (String winHandle : driver.getWindowHandles()) {
             driver.switchTo().window(winHandle);
         }
-
         driver.switchTo().window(windowBefore);
     }
 }

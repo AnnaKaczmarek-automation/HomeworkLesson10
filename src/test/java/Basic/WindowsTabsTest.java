@@ -1,12 +1,10 @@
 package Basic;
-
 import BaseData.BaseTest;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class WindowsTabsTest extends BaseTest {
-
     BasicOperations basicOperations = new BasicOperations();
     WindowsTabsSteps windowsTabsSteps = new WindowsTabsSteps();
     Logger log = LoggerFactory.getLogger("WindowsTabsTest.class");

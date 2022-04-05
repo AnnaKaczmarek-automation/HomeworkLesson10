@@ -1,5 +1,4 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -20,7 +19,5 @@ public class MenuTabTest extends BaseTest {
         log.info("***** Tab 'Menu' is opened *****");
         menuTabSteps.hoverOnElement();
         log.info("elements are correctly picked from the menu");
-
     }
-
 }

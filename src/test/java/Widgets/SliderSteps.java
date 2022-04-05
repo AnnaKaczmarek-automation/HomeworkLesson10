@@ -15,20 +15,16 @@ public class SliderSteps extends BaseTest {
 
         if (number > 0 || number < 100) {
             WebElement slide = driver.findElement(By.xpath("//div[@id='custom-handle']"));
-
             while (Integer.parseInt(slide.getText()) < number) {
                 slide.sendKeys(Keys.ARROW_RIGHT);
             }
-
             while (Integer.parseInt(slide.getText()) > number) {
                 slide.sendKeys(Keys.ARROW_LEFT);
             }
-
             int value = Integer.parseInt(slide.getText());
             Assert.assertEquals(number, value);
             log.info("Given value equals" + value);
         }
     }
-
 }
 

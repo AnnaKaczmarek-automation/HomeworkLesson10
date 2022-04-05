@@ -26,5 +26,4 @@ public class SelectMenuTabTest extends BaseTest {
         selectMenuTabSteps.selectATitle();
         log.info("***** Title is chosen *****");
     }
-
 }

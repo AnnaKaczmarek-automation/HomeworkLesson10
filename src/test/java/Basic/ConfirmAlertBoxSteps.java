@@ -1,10 +1,8 @@
 package Basic;
-
 import BaseData.BaseTest;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
-//dodac wszędzie loggery!!!!!!
 public class ConfirmAlertBoxSteps extends BaseTest {
 
     public  void clickOnConfirmPopUpButton(){

@@ -1,18 +1,14 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.Calendar;
 
 public class DatePickerTabSteps extends BaseTest {
-
 
     public void chooseDay() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, 5);
@@ -49,7 +45,6 @@ public class DatePickerTabSteps extends BaseTest {
         System.out.println(expectedDate2);
         Assert.assertEquals(expectedDate2, actualDate2);
 
-
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input#datepicker"))).click();
         String month = driver.findElement(By.xpath("//span[text()='May']")).getText();
         String year = driver.findElement(By.xpath("//span[text()='2022']")).getText();
@@ -63,5 +58,4 @@ public class DatePickerTabSteps extends BaseTest {
         driver.findElement(By.xpath("//td[@data-year='" + nextYear + "'][@data-month='" + monthThirdDate + "']/a[text()='" + day + "'])")).click();
 
     }
-
 }

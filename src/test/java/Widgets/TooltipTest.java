@@ -1,11 +1,10 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.spi.LoggerFactoryBinder;
+
 
 public class TooltipTest extends BaseTest {
     TooltipSteps tooltipSteps = new TooltipSteps();

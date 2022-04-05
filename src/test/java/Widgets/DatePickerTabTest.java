@@ -1,5 +1,4 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -10,7 +9,6 @@ public class DatePickerTabTest extends BaseTest {
     Logger log = LoggerFactory.getLogger("DatePickerTabTest.class");
     BasicOperations basicOperations = new BasicOperations();
     DatePickerTabSteps datePickerTabSteps = new DatePickerTabSteps();
-
 
     @Test
     void handleDataPickerTabOptions() throws InterruptedException {

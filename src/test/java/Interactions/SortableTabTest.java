@@ -1,5 +1,4 @@
 package Interactions;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -14,5 +13,4 @@ public class SortableTabTest extends BaseTest {
     @Test
     void handleSortableTabTest() {
     }
-
 }

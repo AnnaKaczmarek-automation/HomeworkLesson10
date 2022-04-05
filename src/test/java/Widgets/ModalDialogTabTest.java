@@ -1,5 +1,4 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -19,5 +18,6 @@ public class ModalDialogTabTest extends BaseTest {
         basicOperations.clickOnModalDialogTab();
         log.info("***** Tab 'ModalDialog' is opened *****");
         modalDialogTabSteps.createNewUser();
+        log.info("***** New user is created *****");
     }
 }

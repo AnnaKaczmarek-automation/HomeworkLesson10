@@ -1,5 +1,4 @@
 package Interactions;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -22,7 +21,5 @@ public class DraggableTest extends BaseTest {
         log.info("***** Element is moved to upper right *****");
         draggableSteps.moveBottomRight();
         log.info("***** Element is moved to bottom right *****");
-
     }
-
 }

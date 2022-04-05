@@ -1,5 +1,4 @@
 package Interactions;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;

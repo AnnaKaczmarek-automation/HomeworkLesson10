@@ -1,5 +1,4 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -20,8 +19,5 @@ public class ProgressbarTabTest extends BaseTest {
         log.info("***** Tab 'Progressbar' is opened *****");
         progressbarTabSteps.waitUntilProcessIsComplete();
         log.info("***** Process is completed *****");
-
-
-
     }
 }

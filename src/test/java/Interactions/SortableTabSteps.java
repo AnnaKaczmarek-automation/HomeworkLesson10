@@ -11,5 +11,4 @@ public class SortableTabSteps extends BaseTest {
         String actualMessage = driver.findElement(By.cssSelector("#feedback")).getText();
         Assert.assertEquals(expectedMessage, actualMessage);
     }
-
 }

@@ -1,5 +1,4 @@
 package Interactions;
-
 import BaseData.BaseTest;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
@@ -14,6 +13,4 @@ public class DroppableSteps extends BaseTest {
         String actualText = target.getText();
         Assert.assertEquals(expectedText, actualText);
     }
-
-
 }

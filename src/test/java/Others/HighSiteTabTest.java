@@ -1,5 +1,4 @@
 package Others;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -11,7 +10,6 @@ public class HighSiteTabTest extends BaseTest {
     Logger log = LoggerFactory.getLogger("HighSiteTabTest.class");
     HighSiteTabSteps highSideTabSteps = new HighSiteTabSteps();
 
-
     @Test
     void handleHighSiteTabOperations() {
         driver.get("https://seleniumui.moderntester.pl/");
@@ -20,9 +18,5 @@ public class HighSiteTabTest extends BaseTest {
         basicOperations.clickOnHighSiteTab();
         log.info("***** Tab 'HighSite' is opened *****");
         highSideTabSteps.scrollUntilVisible(driver);
-//        highSideTabSteps.isDisplayed(By.xpath("//input[@id='scroll-button']"));
-
-
-
     }
 }

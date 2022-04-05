@@ -1,15 +1,12 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.util.List;
 import java.util.Random;
 
@@ -52,6 +49,5 @@ public class ModalDialogTabSteps extends BaseTest {
                 log.info("This is newly added user");
             }
         }
-
     }
 }

@@ -1,25 +1,18 @@
 package Basic;
-
 import BaseData.BaseTest;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
 public class AlertBoxSteps extends BaseTest {
-
-
     BasicOperations basicOperations = new BasicOperations();
 
     public void clickOnPromptPopUpButton() {
-
         basicOperations.clickOnBasicTab();
         basicOperations.clickOnAlertsTab();
-
         driver.findElement(By.id("prompt-alert")).click();
-
     }
 
     public void typeInTextIntoAlertTextBoxAndPressOK() {
-
         driver.switchTo().alert().sendKeys("Lord Vader");
         driver.switchTo().alert().accept();
     }

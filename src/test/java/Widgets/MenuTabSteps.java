@@ -1,21 +1,14 @@
 package Widgets;
-
 import BaseData.BaseTest;
-import Basic.BasicOperations;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class MenuTabSteps extends BaseTest {
 
     public void hoverOnElement(){
-
         WebDriverWait wait = new WebDriverWait(driver,5);
         WebElement musicOption = driver.findElement(By.xpath("//div[@id='ui-id-9']"));
         WebElement jazzOption = driver.findElement(By.xpath("//div[@id='ui-id-13']"));
@@ -29,6 +22,5 @@ public class MenuTabSteps extends BaseTest {
         wait.until(ExpectedConditions.visibilityOf(moderOption));
         actions.moveToElement(moderOption).click().perform();
         System.out.println("modern is chosen");
-
     }
 }

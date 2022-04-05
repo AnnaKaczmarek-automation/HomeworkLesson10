@@ -1,5 +1,4 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -22,5 +21,6 @@ public class AccordionTabTest extends BaseTest {
         accordionTabSteps.getTextFromSection2();
         accordionTabSteps.getTextFromSection3();
         accordionTabSteps.getTextFromSection4();
+        log.info("***** Texts from  sections are downloaded*****");
     }
 }

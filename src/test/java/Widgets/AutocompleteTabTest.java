@@ -1,5 +1,4 @@
 package Widgets;
-
 import BaseData.BaseTest;
 import Basic.BasicOperations;
 import org.junit.jupiter.api.Test;
@@ -11,7 +10,6 @@ public class AutocompleteTabTest extends BaseTest {
     AutocompleteTabSteps autocompleteTabSteps = new AutocompleteTabSteps();
     Logger log = LoggerFactory.getLogger("AutocompleteTabTest.class");
 
-
     @Test
     void handleAutocompleteTabOptions(){
         driver.get("https://seleniumui.moderntester.pl/");
@@ -20,13 +18,8 @@ public class AutocompleteTabTest extends BaseTest {
         basicOperations.clickOnAutocompleteTab();
         log.info("***** Tab 'Autocomplete' is opened *****");
         autocompleteTabSteps.typeText("a");
+        log.info("***** Text is typed *****");
         autocompleteTabSteps.printOutAllOptions();
-
-
-
-
-
+        log.info("***** TAll options are printed *****");
     }
-
-
 }

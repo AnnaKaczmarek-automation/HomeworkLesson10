@@ -11,10 +11,8 @@ public class SelectableTabTest extends BaseTest {
     Logger log = LoggerFactory.getLogger("DraggableTest");
     SelectableTabSteps selectableTabSteps = new SelectableTabSteps();
 
-
     @Test
     void handleSelectableTabOperations() {
-
         driver.get("https://seleniumui.moderntester.pl/");
         basicOperations.clickOnInteractionsTab();
         log.info("***** Tab 'Interactions' is opened *****");
@@ -27,7 +25,6 @@ public class SelectableTabTest extends BaseTest {
         selectableTabSteps.selectItems(4);
         log.info("***** Third element is chosen *****");
     }
-
 }
 
 

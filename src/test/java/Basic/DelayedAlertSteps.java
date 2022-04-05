@@ -1,19 +1,11 @@
 package Basic;
-
 import BaseData.BaseTest;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-
-
-
 public class DelayedAlertSteps extends BaseTest {
-
     static BasicOperations basicOperations = new BasicOperations();
 
     public void clickOnDelayedAlertButton() {
@@ -32,6 +24,4 @@ public class DelayedAlertSteps extends BaseTest {
         String expectedText = "OK button pressed";
         Assert.assertEquals(expectedText, actualText);
     }
-
-
 }
