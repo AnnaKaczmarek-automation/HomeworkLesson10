@@ -1,0 +1,11 @@
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I TableTabTest.class - ( ***** Webside is opened *****
+[main] I TableTabTest.class - ( ***** Basic tab is opened *****
+[main] I TableTabTest.class - ( ***** Table tab is opened *****
+[main] I TableTabSteps.class - ( Mountains that fulfill requirements are: 
+[main] I TableTabSteps.class - ( 3-Dom,Alps
+[main] I TableTabSteps.class - ( 4-Weisshorn,Alps
+[main] I TableTabSteps.class - ( 6-Finsteaarhorn,Alps
+[main] I TableTabSteps.class - ( 7-Jungfrau,Alps
+[main] I TableTabTest.class - ( Mountain information are printed
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

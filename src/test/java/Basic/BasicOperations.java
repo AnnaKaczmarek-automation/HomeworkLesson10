@@ -25,6 +25,10 @@ public class BasicOperations extends BaseTest {
     public void clickOnFormTab(){
         driver.findElement(By.id("form-item")).click();
     }
+    public void clickOnTableTab(){
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("table-item"))).click();
+    }
 
 
     public void clickOnIframeTab() {

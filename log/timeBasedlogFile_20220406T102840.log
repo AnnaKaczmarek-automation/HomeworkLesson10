@@ -1,0 +1,17 @@
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome=99 in cache (valid until 10:41:36 06/04/2022 CEST)
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome99=99.0.4844.51 in cache (valid until 09:01:49 07/04/2022 CEST)
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[main] D i.g.bonigarcia.wdm.WebDriverManager - ( Driver chromedriver 99.0.4844.51 found in cache
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Exporting webdriver.chrome.driver as C:\Users\kaczmaa5\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[main] I BaseData.BaseTest.class - ( ***** Driver is initiated properly *****
+[main] I BaseData.BaseTest.class - ( ***** Still before test *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I TableTabTest.class - ( ***** Webside is opened *****
+[main] I TableTabTest.class - ( ***** Basic tab is opened *****
+[main] I TableTabTest.class - ( ***** Table tab is opened *****
+[main] I TableTabSteps.class - ( 3,Dom,Alps
+[main] I TableTabSteps.class - ( 4,Weisshorn,Alps
+[main] I TableTabSteps.class - ( 6,Finsteaarhorn,Alps
+[main] I TableTabSteps.class - ( 7,Jungfrau,Alps
+[main] I TableTabTest.class - ( Mountain information are printed
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

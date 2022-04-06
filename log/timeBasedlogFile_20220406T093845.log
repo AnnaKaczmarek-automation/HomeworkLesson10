@@ -1,0 +1,26 @@
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome=99 in cache (valid until 09:41:19 06/04/2022 CEST)
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome99=99.0.4844.51 in cache (valid until 09:01:49 07/04/2022 CEST)
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[main] D i.g.bonigarcia.wdm.WebDriverManager - ( Driver chromedriver 99.0.4844.51 found in cache
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Exporting webdriver.chrome.driver as C:\Users\kaczmaa5\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[main] I BaseData.BaseTest.class - ( ***** Driver is initiated properly *****
+[main] I BaseData.BaseTest.class - ( ***** Still before test *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I TableTabTest.class - ( ***** Webside is opened *****
+[main] I TableTabTest.class - ( ***** Basic tab is opened *****
+[main] I TableTabTest.class - ( ***** Table tab is opened *****
+[main] I TableTabSteps.class - ( Mont Blanc
+[main] I TableTabSteps.class - ( Dufourspitze
+[main] I TableTabSteps.class - ( Dom
+[main] I TableTabSteps.class - ( Weisshorn
+[main] I TableTabSteps.class - ( Matterhorn
+[main] I TableTabSteps.class - ( Finsteaarhorn
+[main] I TableTabSteps.class - ( Jungfrau
+[main] I TableTabSteps.class - ( Les Ecrins
+[main] I TableTabSteps.class - ( Gran Paradiso
+[main] I TableTabSteps.class - ( Eiger
+[main] I TableTabSteps.class - ( Monviso
+[main] I TableTabSteps.class - ( Grossglockner
+[main] I TableTabSteps.class - ( Mulhacen
+[main] I TableTabTest.class - ( ***** List of rows is created *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

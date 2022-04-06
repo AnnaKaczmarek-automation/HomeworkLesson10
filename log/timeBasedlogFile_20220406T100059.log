@@ -1,0 +1,6 @@
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I TableTabTest.class - ( ***** Webside is opened *****
+[main] I TableTabTest.class - ( ***** Basic tab is opened *****
+[main] I TableTabTest.class - ( ***** Table tab is opened *****
+[main] I TableTabTest.class - ( ***** List of rows is created *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****
