@@ -12,5 +12,13 @@ public class SortableTabTest extends BaseTest {
 
     @Test
     void handleSortableTabTest() {
+        driver.get("https://seleniumui.moderntester.pl/");
+        basicOperations.clickOnInteractionsTab();
+        log.info("***** Tab 'Interactions' is opened *****");
+        basicOperations.clickOnSortableTab();
+        log.info("***** Tab 'Sortable' is opened *****");
+        sortableTabSteps.createAndShuffleTable();
+        log.info("***** Table with numbers is created and shuffled *****");
+
     }
 }

@@ -1,0 +1,26 @@
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome=99 in cache (valid until 10:23:34 07/04/2022 CEST)
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome99=99.0.4844.51 in cache (valid until 09:13:51 08/04/2022 CEST)
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[main] D i.g.bonigarcia.wdm.WebDriverManager - ( Driver chromedriver 99.0.4844.51 found in cache
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Exporting webdriver.chrome.driver as C:\Users\kaczmaa5\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[main] I BaseData.BaseTest.class - ( ***** Driver is initiated properly *****
+[main] I BaseData.BaseTest.class - ( ***** Still before test *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I SortableTabTest.class - ( ***** Tab 'Interactions' is opened *****
+[main] I SortableTabTest.class - ( ***** Tab 'Sortable' is opened *****
+[main] I SortableTabSteps.class - ( [6, 3, 5, 2, 1, 4, 7]
+[main] I SortableTabSteps.class - ( i: 0 ,index: 6, selector: //li[contains(text(),'Item 6')]
+[main] I SortableTabSteps.class - ( element is shuffled
+[main] I SortableTabSteps.class - ( i: 1 ,index: 3, selector: //li[contains(text(),'Item 3')]
+[main] I SortableTabSteps.class - ( element is shuffled
+[main] I SortableTabSteps.class - ( i: 2 ,index: 5, selector: //li[contains(text(),'Item 5')]
+[main] I SortableTabSteps.class - ( element is shuffled
+[main] I SortableTabSteps.class - ( i: 3 ,index: 2, selector: //li[contains(text(),'Item 2')]
+[main] I SortableTabSteps.class - ( element is shuffled
+[main] I SortableTabSteps.class - ( i: 4 ,index: 1, selector: //li[contains(text(),'Item 1')]
+[main] I SortableTabSteps.class - ( element is shuffled
+[main] I SortableTabSteps.class - ( i: 5 ,index: 4, selector: //li[contains(text(),'Item 4')]
+[main] I SortableTabSteps.class - ( element is shuffled
+[main] I SortableTabSteps.class - ( i: 6 ,index: 7, selector: //li[contains(text(),'Item 7')]
+[main] I SortableTabSteps.class - ( element is shuffled
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

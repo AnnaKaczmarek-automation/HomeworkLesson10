@@ -113,7 +113,7 @@ public class BasicOperations extends BaseTest {
     }
 
     public void clickOnDatePickerTab(){
-        WebDriverWait wait = new WebDriverWait(driver,8);
+        WebDriverWait wait = new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("datepicker-item"))).click();
     }
 

@@ -21,5 +21,9 @@ public class DraggableTest extends BaseTest {
         log.info("***** Element is moved to upper right *****");
         draggableSteps.moveBottomRight();
         log.info("***** Element is moved to bottom right *****");
+        draggableSteps.moveToCenter();
+        log.info("***** Element is moved to the center *****");
+        draggableSteps.moveUpperLeft();
+        log.info("***** Element is moved to upper left *****");
     }
 }
