@@ -1,0 +1,4 @@
+[main] I DatePickerTabSteps.class - ( value of month is 7
+[main] I DatePickerTabSteps.class - ( Next button was clicked
+[main] I DatePickerTabSteps.class - ( Chosen day was 18
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

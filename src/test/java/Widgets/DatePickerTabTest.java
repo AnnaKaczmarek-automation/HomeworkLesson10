@@ -19,19 +19,17 @@ public class DatePickerTabTest extends BaseTest {
         log.info("***** Tab 'Widgets' is opened *****");
         basicOperations.clickOnDatePickerTab();
         log.info("***** Tab 'DatePicker' is opened *****");
-        datePickerTabSteps.openDataPicker();
-        log.info("Calendar is opened");
-        datePickerTabSteps.chooseDate(2023, 1, 11);
+        datePickerTabSteps.chooseDate(2022, 4, 11);
         log.info("Date is selected");
-//        datePickerTabSteps.chooseDate(2022, 5, 1);
-//        log.info("Date is selected");
-//        datePickerTabSteps.chooseDate(2023, 1, 31);
-//        log.info("Date is selected");
-//        datePickerTabSteps.chooseDate(2023, 1, 31);
-//        log.info("Date is selected");
-//        datePickerTabSteps.chooseDate(2022, 3, 15);
-//        log.info("Date is selected");
-//        datePickerTabSteps.chooseDate(2021, 7, 17);
-//        log.info("Date is selected");
+        datePickerTabSteps.chooseDate(2022, 5, 1);
+        log.info("Date is selected");
+        datePickerTabSteps.chooseDate(2023, 1, 31);
+        log.info("Date is selected");
+        datePickerTabSteps.chooseDate(2023, 1, 31);
+        log.info("Date is selected");
+        datePickerTabSteps.chooseDate(2022, 3, 15);
+        log.info("Date is selected");
+        datePickerTabSteps.chooseDate(2021, 7, 17);
+        log.info("Date is selected");
     }
 }

@@ -44,7 +44,7 @@ public class DatePickerTabSteps extends BaseTest {
 //        int currentYear = Integer.parseInt(new SimpleDateFormat("yyyy").format(Calendar.getInstance().getTime()));
 //        System.out.println(currentYear);
 
-
+        openDataPicker();
         findYearInCalendar(year);
         Thread.sleep(5000);
         findMonthInCalendar(month);
@@ -128,10 +128,11 @@ public class DatePickerTabSteps extends BaseTest {
 
         if (integerDisplayedMonthValue > month) {
             while (integerDisplayedMonthValue > month) {
-                displayedMonthText = driver.findElement(By.xpath("//span[@class='ui-datepicker-month']")).getText();
-                integerDisplayedMonthValue = changeMonthValuesIntoInteger(displayedMonthText);
                 clickPreviousButton();
                 log.info("Previous button was clicked");
+                displayedMonthText = driver.findElement(By.xpath("//span[@class='ui-datepicker-month']")).getText();
+                integerDisplayedMonthValue = changeMonthValuesIntoInteger(displayedMonthText);
+
                 if (integerDisplayedMonthValue == month) {
                     break;
                 }
@@ -141,10 +142,12 @@ public class DatePickerTabSteps extends BaseTest {
 
         if (integerDisplayedMonthValue < month) {
             while (integerDisplayedMonthValue < month) {
-                displayedMonthText = driver.findElement(By.xpath("//span[@class='ui-datepicker-month']")).getText();
-                integerDisplayedMonthValue = changeMonthValuesIntoInteger(displayedMonthText);
+
                 clickNextButton();
                 log.info("Next button was clicked");
+                displayedMonthText = driver.findElement(By.xpath("//span[@class='ui-datepicker-month']")).getText();
+                integerDisplayedMonthValue = changeMonthValuesIntoInteger(displayedMonthText);
+
                 if (integerDisplayedMonthValue == month) {
                     break;
                 }
@@ -157,7 +160,6 @@ public class DatePickerTabSteps extends BaseTest {
 
         int monthInt = 0;
         switch (month) {
-
             case "January":
                 monthInt = Month.JANUARY.getValue();
                 log.info("value of month is " + monthInt);
@@ -234,11 +236,10 @@ public class DatePickerTabSteps extends BaseTest {
         for (WebElement week : listOfWeeks) {
             List<WebElement> allDaysInWeek = week.findElements(By.cssSelector("td"));
             for (WebElement dayOnTheList : allDaysInWeek) {
-                //dlaczego podstawia ciagle wartośc 1
-                int dayValue = Integer.parseInt(dayOnTheList.findElement(By.cssSelector("td a:nth-child(1)")).getText());
-                System.out.println(dayValue);
-//                log.info(String.valueOf(dayValue));
-                if (dayValue == day) {
+//                int dayValue = Integer.parseInt(dayOnTheList.findElement(By.cssSelector("td a:nth-child(1)")).getText());
+                String dayValue = dayOnTheList.getText();
+
+                if (dayValue.equals(String.valueOf(day))) {
                     dayOnTheList.click();
                     log.info("Chosen day was " + dayOnTheList.getText());
                     Thread.sleep(3000);
