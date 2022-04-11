@@ -1,0 +1,68 @@
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome=100 in cache (valid until 21:51:19 11/04/2022 CEST)
+[main] D i.g.b.wdm.cache.ResolutionCache - ( Resolution chrome100=100.0.4896.60 in cache (valid until 08:04:08 12/04/2022 CEST)
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+[main] D i.g.bonigarcia.wdm.WebDriverManager - ( Driver chromedriver 100.0.4896.60 found in cache
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Exporting webdriver.chrome.driver as C:\Users\kaczmaa5\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+[main] I BaseData.BaseTest.class - ( ***** Driver is initiated properly *****
+[main] I BaseData.BaseTest.class - ( ***** Still before test *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I DatePickerTabTest.class - ( ***** Tab 'Widgets' is opened *****
+[main] I DatePickerTabTest.class - ( ***** Tab 'DatePicker' is opened *****
+[main] I DatePickerTabSteps.class - ( value of month is 4
+[main] I DatePickerTabSteps.class - ( Chosen day was 11
+[main] I DatePickerTabTest.class - ( Date is selected
+[main] I DatePickerTabSteps.class - ( value of month is 4
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( Next button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 5
+[main] I DatePickerTabSteps.class - ( Chosen day was 1
+[main] I DatePickerTabTest.class - ( Date is selected
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( 'Next' button is chosen
+[main] I DatePickerTabSteps.class - ( value of month is 1
+[main] I DatePickerTabSteps.class - ( Chosen day was 31
+[main] I DatePickerTabTest.class - ( Date is selected
+[main] I DatePickerTabSteps.class - ( value of month is 1
+[main] I DatePickerTabSteps.class - ( Chosen day was 31
+[main] I DatePickerTabTest.class - ( Date is selected
+[main] I DatePickerTabSteps.class - ( value of month is 12
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 11
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 10
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 9
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 8
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 7
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 6
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 5
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 4
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 3
+[main] I DatePickerTabSteps.class - ( Chosen day was 15
+[main] I DatePickerTabTest.class - ( Date is selected
+[main] I DatePickerTabSteps.class - ( value of month is 12
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 11
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 10
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 9
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 8
+[main] I DatePickerTabSteps.class - ( Previous button was clicked
+[main] I DatePickerTabSteps.class - ( value of month is 7
+[main] I DatePickerTabSteps.class - ( Chosen day was 17
+[main] I DatePickerTabTest.class - ( Date is selected
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****

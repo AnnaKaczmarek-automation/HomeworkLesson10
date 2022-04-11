@@ -1,7 +1,6 @@
 package Widgets;
 
 import BaseData.BaseTest;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -34,37 +33,19 @@ public class DatePickerTabSteps extends BaseTest {
     }
 
     public void chooseDate(int year, int month, int day) throws InterruptedException {
-//        String currentDay = new SimpleDateFormat("d").format(Calendar.getInstance().getTime());
-//        System.out.println(currentDay);
-//
-//        String currentMonth = new SimpleDateFormat("MM").format(Calendar.getInstance().getTime());
-//        System.out.println(currentMonth);
-//
-
-//        int currentYear = Integer.parseInt(new SimpleDateFormat("yyyy").format(Calendar.getInstance().getTime()));
-//        System.out.println(currentYear);
-
         openDataPicker();
         findYearInCalendar(year);
-        Thread.sleep(5000);
         findMonthInCalendar(month);
-        Thread.sleep(5000);
         findDayInCalendar(day);
-        Thread.sleep(5000);
         waitTillCalendarIsClosed();
-//        verifyDateInput(year, month, day);
-
-
     }
 
     public void findYearInCalendar(int year) {
-
         int displayedYearText = parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
         System.out.println(displayedYearText);
 
         if (displayedYearText > year) {
             while (displayedYearText > year) {
-//                displayedYearText = parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
                 clickPreviousButton();
                 displayedYearText = parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
             }
@@ -72,54 +53,10 @@ public class DatePickerTabSteps extends BaseTest {
 
         if (displayedYearText < year) {
             while (displayedYearText < year) {
-//                displayedYearText = parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
                 clickNextButton();
                 displayedYearText = parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
             }
         }
-//********************************************************
-//        while (true) {
-//            displayedYearText = Integer.parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
-//            if (displayedYearText > year) {
-//                clickPreviousButton();
-//                log.info("Previous button was clicked");
-//                break;
-//            }
-//            if (displayedYearText == year) {
-//                break;
-//            }
-//        }
-//
-//        while (true) {
-//            displayedYearText = Integer.parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
-//            if (displayedYearText < year) {
-//                clickNextButton();
-//                log.info("Next button was clicked");
-//
-//            }
-//            if (displayedYearText == year) {
-//                break;
-//            }
-//        }
-//**********************************************************************************************
-//        while (displayedYearText > year) {
-//            displayedYearText = Integer.parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
-//            clickPreviousButton();
-//            log.info("Previous button was clicked");
-//            if (displayedYearText == year) {
-//                break;
-//            }
-//
-//        }
-//        while (displayedYearText < year) {
-//            displayedYearText = Integer.parseInt(driver.findElement(By.xpath("//div[@class='ui-datepicker-title']/span[@class='ui-datepicker-year']")).getText());
-//            clickNextButton();
-//            log.info("Next button was clicked");
-//            if (displayedYearText == year) {
-//                break;
-//            }
-//        }
-
     }
 
     public void findMonthInCalendar(int month) {
@@ -137,7 +74,6 @@ public class DatePickerTabSteps extends BaseTest {
                     break;
                 }
             }
-
         }
 
         if (integerDisplayedMonthValue < month) {
@@ -153,11 +89,9 @@ public class DatePickerTabSteps extends BaseTest {
                 }
             }
         }
-
     }
 
     public Integer changeMonthValuesIntoInteger(String month) {
-
         int monthInt = 0;
         switch (month) {
             case "January":
@@ -222,17 +156,14 @@ public class DatePickerTabSteps extends BaseTest {
 
             default:
                 log.info("Wrong month name was provided");
-
         }
         return monthInt;
-
     }
 
 
     public void findDayInCalendar(int day) throws InterruptedException {
-
-        WebDriverWait wait = new WebDriverWait(driver,5);
-        List<WebElement> listOfWeeks =  wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("tbody tr")));
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        List<WebElement> listOfWeeks = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("tbody tr")));
         for (WebElement week : listOfWeeks) {
             List<WebElement> allDaysInWeek = week.findElements(By.cssSelector("td"));
             for (WebElement dayOnTheList : allDaysInWeek) {
@@ -245,29 +176,12 @@ public class DatePickerTabSteps extends BaseTest {
                     Thread.sleep(3000);
                 }
             }
-
         }
-
     }
-
-//        public void findDayInCalendar(int day, crea){
-//        for (WebElement dayOnTheList : allDaysInWeek) {
-//            if (Integer.parseInt(dayOnTheList.findElement(By.xpath("//a[contains(@class, 'ui-state-default')]")).getText()) == day) {
-//                dayOnTheList.click();
-//                log.info("Chosen day was " + dayOnTheList.getText());
-//                Thread.sleep(3000);
-//            }
-//        }
-
 
     public void waitTillCalendarIsClosed() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("ui-datepicker-div")));
-    }
-    public void verifyDateInput(int year, int month, int day){
-        String expectedDate= day+"/"+month+"/"+year;
-//        String actualDate = driver.findElement(By.xpath("//input[@id='datepicker']")).getText();
-//        Assert.assertEquals(expectedDate, actualDate);
     }
 }
 
