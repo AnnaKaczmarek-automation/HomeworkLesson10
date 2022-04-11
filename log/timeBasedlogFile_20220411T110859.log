@@ -1,0 +1,9 @@
+[main] D i.g.bonigarcia.wdm.WebDriverManager - ( Driver chromedriver 100.0.4896.60 found in cache
+[main] I i.g.bonigarcia.wdm.WebDriverManager - ( Exporting webdriver.chrome.driver as C:\Users\kaczmaa5\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+[main] I BaseData.BaseTest.class - ( ***** Driver is initiated properly *****
+[main] I BaseData.BaseTest.class - ( ***** Still before test *****
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly maximized *****
+[main] I DatePickerTabTest.class - ( ***** Tab 'Widgets' is opened *****
+[main] I DatePickerTabTest.class - ( ***** Tab 'DatePicker' is opened *****
+[main] I DatePickerTabTest.class - ( Calendar is opened
+[main] I BaseData.BaseTest.class - ( ***** Window is correctly closed *****
